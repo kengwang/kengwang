@@ -1,14 +1,17 @@
 ## Kengwang
 
-Hi, I'm Kengwang. Welcome to my Github. I'm a senior high student in People's Republic of China, also a personal programmer. (I'm a bit poor in English)
-## Status Bar
+Hi, I'm Kengwang. Here is my GitHub Profile. 
+I'm a student in Peoples Republic of China.
+I'm currently a C# developer (WPF & ASP.NET), but I used to use PHP ~~which is the best language in the world~~
+
+### Works
+
+I'm working on [HyPlayer](https://github.com/HyPlayer/HyPlayer)
+
+## Status
 
 [![Kengwang's github stats](https://github-readme-stats.vercel.app/api?username=kengwang&count_private=true&show_icons=true&theme=dark)](https://github.com/kengwang)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kengwang&hide=CSS,Javascript&theme=dark)](https://github.com/kengwang)
-### My Repositorys
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=kengwang&repo=BiliDuang&theme=dark)](https://github.com/kengwang/BiliDuang)
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=HyPlayer&repo=HyPlayer&theme=dark)](https://github.com/HyPlayer/HyPlayer)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kengwang&hide=CSS,Javascript&theme=dark&layout=compact)](https://github.com/kengwang)
 
 ## Donate Me!
 
