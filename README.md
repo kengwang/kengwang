@@ -1,7 +1,7 @@
 ## Kengwang
 
-Hi, I'm Kengwang. Here is my GitHub Profile. 
-I'm a student in Peoples Republic of China.
+Hi, I'm Kengwang.
+I'm a student in Peoples Republic of China, currently studying in Chengdu University of Technology.
 I'm currently a C# developer (WPF & ASP.NET), but I used to use PHP ~~which is the best language in the world~~
 
 ### Works
@@ -15,6 +15,7 @@ I'm working on [HyPlayer](https://github.com/HyPlayer/HyPlayer)
 
 ## Donate Me!
 
+Patreon: https://www.patreon.com/kengwang
 Afdian (爱发电): https://afdian.net/@kengwang
 
 <div>
