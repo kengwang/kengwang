@@ -2,13 +2,15 @@
 
 Hi, I'm Kengwang.
 
-I'm a student in Peoples Republic of China, currently studying in Chengdu University of Technology.
+I'm a student in Peoples Republic of China, studying in 🦕 Chengdu University of Technology.
 
-I'm currently a C# developer (WPF & ASP.NET), but I used to use PHP ~~which is the best language in the world~~
+I'm full-stack web and desktop app developer, currently a C# developer (WPF & ASP.NET), but I used to use PHP ~~which is the best language in the world~~
+
+I'm learning Web Security at Dino Security Group.
 
 ### Works
 
-I'm working on [HyPlayer](https://github.com/HyPlayer/HyPlayer)
+* [HyPlayer](https://github.com/HyPlayer/HyPlayer)
 
 ## Status
 
