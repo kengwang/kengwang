@@ -4,7 +4,7 @@ Hello! I’m Kengwang.
 
 I’m a dedicated student from the People’s Republic of China, currently pursuing my studies at Chengdu University of Technology.
 
-As a full-stack web and desktop application developer, I bring a wealth of experience, particularly in C# development (WPF & ASP.NET). While I have a strong foundation in PHP—widely regarded as a powerful language—I am committed to honing my skills in the latest technologies. 
+As a full-stack web and desktop application developer, I bring a wealth of experience, particularly in C# development (WPF & ASP.NET). While I have a strong foundation in PHP ~~which is the best language in the world~~. I am committed to honing my skills in the latest technologies. 
 
 Right now, I'm diving into web security with the Dino Security Group.
 
