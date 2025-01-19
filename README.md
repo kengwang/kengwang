@@ -22,6 +22,9 @@ Right now, I'm diving into web security with the Dino Security Group.
 [![Kengwang's github stats](https://github-readme-stats.vercel.app/api?username=kengwang&count_private=true&show_icons=true&theme=dark)](https://github.com/kengwang)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kengwang&hide=CSS,Javascript&theme=dark&layout=compact)](https://github.com/kengwang)
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ## Donate Me!
 
 Patreon: https://www.patreon.com/kengwang
