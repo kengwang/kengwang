@@ -23,6 +23,16 @@ Right now, I'm diving into web security with the Dino Security Group.
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kengwang&hide=CSS,Javascript&theme=dark&layout=compact)](https://github.com/kengwang)
 
 <!--START_SECTION:waka-->
+
+```txt
+Total Time: 4 hrs 45 mins
+
+C#      3 hrs 58 mins   ██████████████████▒░░░░░░   72.95 %
+Other   42 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   12.98 %
+PHP     33 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.09 %
+JSON    13 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.98 %
+```
+
 <!--END_SECTION:waka-->
 
 ## Donate Me!
