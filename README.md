@@ -26,13 +26,13 @@ Right now, I'm diving into web security with the Dino Security Group.
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 2 hrs 4 mins
+Total Time: 4 hrs 54 mins
 
-C#         1 hr 35 mins    ███████████████████░░░░░░   76.38 %
-YAML       18 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.51 %
-Markdown   7 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.83 %
-Vue.js     3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.46 %
-JSON       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 %
+C#                     3 hrs 33 mins   ██████████████████░░░░░░░   72.52 %
+YAML                   35 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.97 %
+XML                    19 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.50 %
+XAML                   8 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.04 %
+Markdown               7 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.48 %
 ```
 
 <!--END_SECTION:waka-->
