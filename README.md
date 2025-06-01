@@ -26,13 +26,13 @@ Right now, I'm diving into web security with the Dino Security Group.
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 11 hrs 17 mins
+Total Time: 7 hrs 52 mins
 
-Vue.js                             3 hrs 37 mins   ████████░░░░░░░░░░░░░░░░░   32.05 %
-JavaScript                         2 hrs 6 mins    ████▓░░░░░░░░░░░░░░░░░░░░   18.63 %
-YAML                               1 hr 27 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   12.97 %
-Docker                             1 hr 5 mins     ██▒░░░░░░░░░░░░░░░░░░░░░░   09.62 %
-PHP                                56 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 %
+Vue.js                             3 hrs 10 mins   ██████████░░░░░░░░░░░░░░░   40.44 %
+JavaScript                         1 hr 21 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.16 %
+YAML                               1 hr 4 mins     ███▒░░░░░░░░░░░░░░░░░░░░░   13.56 %
+Docker                             32 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.92 %
+SQL                                24 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.25 %
 ```
 
 <!--END_SECTION:waka-->
