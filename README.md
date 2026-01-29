@@ -47,7 +47,7 @@ Afdian (爱发电): https://afdian.com/a/kengwang
 
 ---
 
-My Gpg Key: [Public Key](/Kengwang_0x0CF42B18_public.asc)
+My Gpg Key: [Public Key](/Kengwang_0x9ED4CB8A0CF42B18_public.asc)
 
 ## Contact
 
