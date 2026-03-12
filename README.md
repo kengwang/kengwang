@@ -26,13 +26,13 @@ Right now, I'm diving into web security with the Dino Security Group.
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 15 hrs 22 mins
+Total Time: 13 hrs 4 mins
 
-Python     13 hrs 42 mins        ██████████████████████░░░   88.47 %
-C++        31 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.37 %
-JSON       26 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.82 %
-TeX        11 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.25 %
-HTML       10 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.18 %
+Python     11 hrs 25 mins        █████████████████████▓░░░   87.24 %
+C++        31 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.99 %
+TeX        28 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.63 %
+HTML       10 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.40 %
+Markdown   7 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.90 %
 ```
 
 <!--END_SECTION:waka-->
