@@ -26,13 +26,9 @@ Right now, I'm diving into web security with the Dino Security Group.
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 1 hr 59 mins
+Total Time: 0 secs
 
-JSON         50 mins               █████████▒░░░░░░░░░░░░░░░   37.47 %
-PHP          18 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.93 %
-Git Config   15 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   11.24 %
-Other        13 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.39 %
-Java         13 mins               ██▓░░░░░░░░░░░░░░░░░░░░░░   10.35 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
