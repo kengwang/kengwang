@@ -26,9 +26,11 @@ Right now, I'm diving into web security with the Dino Security Group.
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 0 secs
+Total Time: 20 mins
 
-No activity tracked
+Markdown   10 mins               ███████████▓░░░░░░░░░░░░░   46.17 %
+PHP        10 mins               ███████████▓░░░░░░░░░░░░░   46.11 %
+Other      1 min                 ██░░░░░░░░░░░░░░░░░░░░░░░   07.72 %
 ```
 
 <!--END_SECTION:waka-->
