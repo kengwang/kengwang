@@ -1,0 +1,106 @@
+name: Update GitHub profile visuals
+
+on:
+  schedule:
+    - cron: '23 2 * * *' # Daily at 02:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-visuals
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Generate GitHub statistics
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: 'username=kengwang&show_icons=true&include_all_commits=true&hide_border=true&theme=tokyonight&bg_color=1a1b27&title_color=bb9af7&icon_color=7aa2f7'
+          path: profile/cards/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate language statistics
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: 'username=kengwang&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=1a1b27&title_color=bb9af7'
+          path: profile/cards/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate HyPlayer project card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=HyPlayer&repo=HyPlayer&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=bb9af7&icon_color=7aa2f7'
+          path: profile/cards/hyplayer.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate BiliDuang project card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=kengwang&repo=BiliDuang&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=bb9af7&icon_color=7aa2f7'
+          path: profile/cards/biliduang.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate Depository project card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=kengwang&repo=Depository&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=bb9af7&icon_color=7aa2f7'
+          path: profile/cards/depository.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate ALRC project card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: 'username=kengwang&repo=ALRC&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=bb9af7&icon_color=7aa2f7'
+          path: profile/cards/alrc.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: kengwang
+
+      - name: Generate light and dark snake animations
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: kengwang
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            profile/snake/github-contribution-grid-snake.svg?palette=github-light&color_snake=#7c3aed
+            profile/snake/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#7aa2f7
+
+      - name: Commit all generated visual assets together
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/cards/ profile/snake/ profile-3d-contrib/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh GitHub profile visuals"
+            git push
+          else
+            echo "Visual assets are already up to date."
+          fi
