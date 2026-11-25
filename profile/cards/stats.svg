@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kengwang&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 1090, Total Commits  : 6567, Total PRs: 137, Total Issues: 153, Contributed to (last year): 18</desc>
+        <desc id="descId">Total Stars Earned: 1090, Total Commits  : 6589, Total PRs: 137, Total Issues: 153, Contributed to (last year): 18</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 22.157929892439043;
+        stroke-dashoffset: 22.151243903594803;
       }
     }
   
